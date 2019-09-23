@@ -1,17 +1,23 @@
 <template>
-  <div></div>
+  <div>
+    <header-box />
+  </div>
 </template>
 
 <script>
+import headerBox from '@/components/header'
+
 export default {
   data() {
     return {}
   },
-
-  components: {},
-
+  components: {
+    headerBox
+  },
   methods: {},
-  created() {}
+  created() {
+    // let app = getApp()
+  }
 }
 </script>
 
